@@ -27,7 +27,7 @@ describe("GitHub EndPoint Tests", function() {
     it("createRepo successfully creates repo", async function() {
         
       let user  = await github.getUser();
-      let status = await github.createRepo(user, "test-HW4-34555");
+      let status = await github.createRepo(user, "test-HW4-SSW-345");
       expect(status).to.equal(201);
 
     });
