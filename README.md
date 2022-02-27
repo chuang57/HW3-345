@@ -1,5 +1,5 @@
-I Implemented functions in order to access endpoints from the GitHub API in order to list branches, create a new repo, create an issue and edit a repo to enable wiki support. I then tested my functions using "npm test". All of the functions passed the test except for the enableWikiSupport function test which I beleive is due to the fact that GitHub now enables Wiki support on repos by default.
-I then ran the server using "node index.js" after I cd into the server directory. Then I posted content to the server from a Git Bash terminal using curl. I then retreived that content succesfully and then made a second read which properly resulted in a "Not Found" message.
+I Implemented functions in order to access endpoints from the GitHub API in order to list branches, create a new repo, create an issue and edit a repo to enable wiki support. I then tested my functions using "npm test". All of the functions passed the test except for the enableWikiSupport function test which I believe is due to the fact that GitHub now enables Wiki support on repos by default.
+I then ran the server using "node index.js" after I cd into the server directory. Then I posted content to the server from a Git Bash terminal using curl. I then retrieved that content successfully and then made a second read which properly resulted in a "Not Found" message.
 
 Screencast:
 https://imgur.com/a/wQIxRxh
