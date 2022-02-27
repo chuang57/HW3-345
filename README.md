@@ -1,3 +1,9 @@
+I Implemented functions in order to access endpoints from the GitHub API in order to list branches, create a new repo, create an issue and edit a repo to enable wiki support. I then tested my functions using "npm test". All of the functions passed the test except for the enableWikiSupport function test which I beleive is due to the fact that GitHub now enables Wiki support on repos by default.
+I then ran the server using "node index.js" after I cd into the server directory. Then I posted content to the server from a Git Bash terminal using curl. I then retreived that content succesfully and then made a second read which properly resulted in a "Not Found" message.
+
+Screencast:
+https://imgur.com/a/wQIxRxh
+
 # Introduction
 
 A *RESTful architecture*, is an architectural style ([Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)) for providing resources to clients using a set of request verbs and resource locations. A REST API allows a client to access resources provided by a service.
